@@ -1,0 +1,195 @@
+.wrapper {
+    height: 534px;
+    width: 830px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0px auto;
+    transition-property: margin, width, padding;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    overflow: hidden clip;
+    scroll-snap-stop: always;
+    scroll-snap-align: start center;
+    padding-inline-end: 240px;
+}
+.content {
+    margin: 0px auto;
+    position: relative;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    transition-property: grid, max-width, height;
+    transition-delay: 0ms, 0ms, 0ms;
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    align-items: end;
+    width: 100%;
+    max-width: calc(76.25px + 56.25vh);
+    height: 100%;
+}
+.video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kendo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: visible;
+}
+.mode {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(22, 24, 35, 0.06);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+}
+.car {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.cheng {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.channo {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+.span {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0px;
+    border-radius: 50%;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    width: 58px;
+    height: 58px;
+    background-color: rgba(22, 24, 35, 0.06);
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.number-like {
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(22, 24, 35, 0.75);
+    text-align: center;
+}
+.use-info {
+    position: relative;
+    margin-bottom: 20px;
+}
+.kid {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.kaito {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-feature-settings: 'tnum';
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 50%;
+    border-color: rgba(22, 24, 35, 0.12);
+    border-width: 0.5px;
+    cursor: pointer;
+    background-color: rgba(136, 136, 136, 0.5);
+}
+.img-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cong {
+    box-sizing: border-box;
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    font-family: var(--font-family);
+    // font-weight: var(--tux-fontWeightSemibold);
+    text-decoration: none;
+    cursor: pointer;
+    background-clip: padding-box;
+    //font-size: var(--tux-fontSizeP4);
+    padding-inline: 11px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(254, 44, 85, 1);
+    border-color: rgba(254, 44, 85, 1);
+    width: 24px;
+    height: 24px;
+    min-width: unset;
+    padding: 0px;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.caeo {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    overflow: hidden;
+    gap: 4px;
+}

@@ -1,0 +1,181 @@
+.upload-container {
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 80px auto 40px auto;
+}
+
+.upload-header {
+    text-align: left;
+}
+
+.upload-header h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.upload-header p {
+    color: gray;
+    margin-top: 5px;
+}
+
+.upload-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.file-upload-area {
+    margin: auto;
+    padding: 20px;
+    width: 260px;
+    height: 470px;
+    text-align: center;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fafafa;
+}
+
+.upload-text {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.upload-subtext {
+    margin-top: 10px;
+    color: #777;
+    font-size: 13px;
+}
+
+.file-type-info {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.upload-button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    background-color: #f02c56;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.video-preview-container {
+    position: relative;
+    width: 260px;
+    height: 540px;
+}
+
+.video-preview {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.video-info {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.video-name {
+    display: flex;
+    align-items: center;
+}
+
+.video-name span {
+    margin-left: 8px;
+    font-size: 11px;
+}
+
+.change-video-button {
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caption-container {
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.caption-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption-counter {
+    color: gray;
+    font-size: 12px;
+}
+
+.caption-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.action-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.discard-button,
+.post-button {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.discard-button {
+    border: 1px solid #ccc;
+}
+
+.post-button {
+    background-color: #f02c56;
+    color: white;
+    border: none;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading-icon {
+    color: white;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
